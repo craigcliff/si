@@ -1,0 +1,106 @@
+@import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,700italic,700,500&subset=latin,latin-ext");
+
+body {
+      
+     
+    background-color: #f2f2f2;
+    margin:0px;
+    padding:0px;
+
+    	
+      }
+	
+
+
+
+	/* COMMON PRICING STYLES */
+		.panel.service,
+		.panel.service>.panel-heading{
+			border-radius:0px;
+			 -moz-transition: all .3s ease;
+			-o-transition:  all .3s ease;
+			-webkit-transition:  all .3s ease;
+		}
+		.panel.service:hover{
+			box-shadow: 0px 0px 30px rgba(0,0,0, .2);
+		}
+		.panel.service:hover>.panel-heading{
+			box-shadow: 0px 0px 30px rgba(0,0,0, .2) inset;
+		}
+        
+		
+				
+		.panel.service>.panel-heading{
+			box-shadow: 0px 5px 0px rgba(50,50,50, .2) inset;
+			text-shadow:0px 3px 0px rgba(50,50,50, .6);
+		}
+			
+		.service .list-group-item{
+			border-bottom-:1px solid rgba(250,250,250, .5);
+		}
+		
+		.panel.service .list-group-item:last-child {
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		.panel.service .list-group-item:first-child {
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+		}
+		
+		.service .panel-footer {
+			color: #fff;
+			border-bottom:0px;
+			background-color:  rgba(0,0,0, .1);
+			box-shadow: 0px 3px 0px rgba(0,0,0, .3);
+		}
+		
+		
+		.panel.service .btn{
+			box-shadow: 0 -1px 0px rgba(50,50,50, .2) inset;
+			border:0px;
+		}
+
+.navbar.navbar-www {
+    background-image: white;
+    border-color: #3E8956;
+    
+    
+}
+
+.navbar-brand{
+    margin-left:-100px !important;
+    
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+     background-color: #F8F8F8;
+}
+
+.text1{
+    
+    color: #0075c9;
+}
+
+.list-group-item{
+     background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+ color: #333333;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+}
+
+
+
+
+
+		
+	
